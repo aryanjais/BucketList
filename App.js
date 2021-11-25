@@ -1,91 +1,51 @@
-import { StatusBar } from 'expo-status-bar';
-import React from 'react';
-import { StyleSheet, Text, TextInput, View, Image, TouchableOpacity, ImageBackground, Button } from 'react-native';
-import Card from './components/Card';
+import * as React from "react";
+import { NavigationContainer } from "@react-navigation/native";
+import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
+import HomeTab from "./tabs/home";
+import SearchTab from "./tabs/search";
+import { Ionicons } from "@expo/vector-icons";
+import {StyleSheet,ImageBackground} from "react-native";
+
+const Tab = createBottomTabNavigator();
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <ImageBackground source={require('./assets/oo.jpg')} resizeMode="cover" style={styles.image}>
-        <Card style={styles.inputContainer}>
+    <ImageBackground source={require('./assets/oo.jpg')} resizeMode="cover" style={styles.image}>
+      <NavigationContainer>
+        <Tab.Navigator
+          screenOptions={({ route }) => ({
+            tabBarIcon: ({ focused, color, size }) => {
+              let iconName;
 
-          <View style={styles.imageCardContainer}>
-          <Image source={require('./assets/logo3.png')} resizeMode="cover" style={styles.imagecard} />
-          </View>
-          <TextInput style={styles.Input}
-            placeholder="Username Or E-Mail" />
+              if (route.name === "Home") {
+                iconName = focused ? "ios-home" : "ios-home-outline";
+              } else if (route.name === "Search") {
+                iconName = focused ? "ios-search" : "ios-search-outline";
+              }
 
-          <TextInput style={styles.Input}
-            placeholder="Password"
-            secureTextEntry
-          />
-          <Button title="Login" />
-        </Card>
-      </ImageBackground>
-    </View>
+              return <Ionicons name={iconName} size={size} color={color} />;
+            },
+          })}
+          tabBarOptions={{
+            activeTintColor: "tomato",
+            inactiveTintColor: "gray",
+            labelPosition: "below-icon",
+          }}
+        >
+          <Tab.Screen name="Home" component={HomeTab} />
+          <Tab.Screen name="Search" component={SearchTab} />
+        </Tab.Navigator>
+      </NavigationContainer>
+    </ImageBackground>
   );
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1
 
-  },
+const styles = StyleSheet.create({
   image: {
     flex: 1,
     justifyContent: "center",
     tintColor: "black",
   },
-  imagecontainer: {
-    flex: 1,
-    justifyContent: 'center'
-
-  },
-  Input: {
-    paddingLeft:1,
-    width: "60%",
-    backgroundColor: "#fff",
-    marginBottom: 10,
-    marginTop:10,
-    borderColor:'black',
-    borderWidth:1
-
-
-
-  },
-  Bold: {
-    fontSize: 20,
-    fontStyle: 'normal',
-    padding: 15,
-
-  },
-  button: {
-    backgroundColor: 'deepskyblue',
-    padding: 10,
-    borderRadius: 10
-  },
-  inputContainer: {
-    width: 300,
-    maxWidth: '100%',
-    alignItems: 'center',
-    justifyContent: 'space-around',
-    marginLeft: 50,
-    padding:10
-
-
-  },
-  imageCardContainer: {
-    borderRadius: 200,
-    width: '70%',
-    borderWidth: 3,
-    borderColor: 'black',
-    overflow: 'hidden',
-    height:100,
-  },
-  imagecard: {
-    flex: 1,
-    justifyContent: "center"
-  },
-
 
 });
