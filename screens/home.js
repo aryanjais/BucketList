@@ -8,16 +8,15 @@ import {
   ActivityIndicator,
 } from "react-native";
 import MovieSection from "../components/movieSection";
-import Comedy from "../components/Comedy";
 import { ScrollView } from "react-native-gesture-handler";
-import Romance from "../components/Romance";
+
 
 function HomeScreen({ navigation }) {
   const [loading, setLoading] = React.useState(false);
   const [error, setError] = React.useState(null);
   const [data, setData] = React.useState([]);
 
-  const handlePress = ({ title, id }) => {};
+  const handlePress = ({ title, id }) => { };
 
   useEffect(() => {
     setLoading(true);
@@ -62,17 +61,95 @@ function HomeScreen({ navigation }) {
           title="Top rated movies"
         ></MovieSection>
 
-        <Romance onPress={handlePress}
-        data={data}
-        title="Romantic Movies">
-        
-        </Romance>
-        <Comedy
+        <MovieSection onPress={handlePress}
+          data={data}
+          title="Romantic Movies">
+
+        </MovieSection>
+        <MovieSection
+          onPress={handlePress}
+          data={data}
+          title="Comedy Movies">
+
+        </MovieSection>
+        <MovieSection
+          onPress={handlePress}
+          data={data}
+          title="Thriller Movies">
+
+        </MovieSection>
+        <MovieSection
+          onPress={handlePress}
+          data={data}
+          title="Horror Movies">
+
+        </MovieSection>
+        <MovieSection
         onPress={handlePress}
         data={data}
-        title="Comedy Movies">
+        title="Scifi Movies">
 
-        </Comedy>
+        </MovieSection>
+        <MovieSection
+        onPress={handlePress}
+        data={data}
+        title="Fantasy Movies">
+
+        </MovieSection>
+        <MovieSection
+        onPress={handlePress}
+        data={data}
+        title="Drama Movies">
+
+        </MovieSection>
+        <MovieSection
+        onPress={handlePress}
+        data={data}
+        title="Crime Movies">
+
+        </MovieSection>
+        <MovieSection
+        onPress={handlePress}
+        data={data}
+        title="Action Movies">
+
+        </MovieSection>
+        <MovieSection
+        onPress={handlePress}
+        data={data}
+        title="Mystery Movies">
+
+        </MovieSection>
+        <MovieSection
+        onPress={handlePress}
+        data={data}
+        title="Animation Movies">
+
+        </MovieSection>
+        <MovieSection
+        onPress={handlePress}
+        data={data}
+        title="Adventure Movies">
+
+        </MovieSection>
+        <MovieSection
+        onPress={handlePress}
+        data={data}
+        title="Comedy-Romance Movies">
+
+        </MovieSection>
+        <MovieSection
+        onPress={handlePress}
+        data={data}
+        title="Action-Comedy Movies">
+
+        </MovieSection>
+        <MovieSection
+        onPress={handlePress}
+        data={data}
+        title="Superhero Movies">
+
+        </MovieSection>
       </ScrollView>
     </SafeAreaView>
   );

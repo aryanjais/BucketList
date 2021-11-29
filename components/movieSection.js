@@ -21,6 +21,7 @@ function MovieSection({ title, data, onPress }) {
         source={{
           uri: item.backimg,
         }}
+        onPress={() => setAddToList(item.title)}
       />
       <View style={styles.cardInnerContainer}>
         <Text style={styles.cardTitle}>{item.title}</Text>
