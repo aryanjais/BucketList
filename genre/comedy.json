@@ -1,0 +1,55 @@
+[
+    {
+        "title":"Ghostbusters: Afterlife",
+        "description":"Director: Jason Reitman | Stars: Carrie Coon, Paul Rudd",
+        "backimg":"https://film-authority.com/wp-content/uploads/2021/11/ghostbustersafterbanner.jpg"
+
+    },
+    {
+        "title":"Red Notice",
+        "description":"Director: Rawson Marshall Thurber | Stars: Dwayne Johnson",
+        "backimg":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVrk9Odon599XGe0wZDvvDrd0Z5avG1Mk7_A1jXtWrUls_YJ7YFNJhw9xlT7ueboE8V3U&usqp=CAU"
+    },
+    {
+        "title":"The Great",
+        "description":"Stars: Elle Fanning, Nicholas Hoult, Phoebe Fox",
+        "backimg":"https://a.1stdibscdn.com/huge-art-deco-original-carter-the-great-the-magician-travelling-show-poster-for-sale-picture-2/f_13552/1607048368796/_MG_7335_2__master.JPG?width=768"
+    },
+    {
+        "title":"Encanto",
+        "description":"Directors: Jared Bush, Byron Howard, Charise Castro Smith | Stars: Stephanie Beatriz",
+        "backimg":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6zFCo5ztlk2et8etmMeZS4cN9AqjaxkzQug&usqp=CAU"
+    },
+    {
+        "title":" Ted Lasso",
+        "description":"Stars: Jason Sudeikis, Brett Goldstein, Brendan Hunt",
+        "backimg":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBfcp-gvtMA0A03Ev_PySsi3_IKcZcfjxcUg&usqp=CAU"
+    },
+    {
+        "title":"Jungle Cruise",
+        "description":"Director: Jaume Collet-Serra | Stars: Dwayne Johnson",
+        "backimg":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0dskNUVf729YwPykUyHHw4HWlcGx535BthA&usqp=CAU"
+    },
+    {
+        "title":"The French Dispatch",
+        "description":"Director: Wes Anderson | Stars: Benicio Del Toro, Adrien Brody",
+        "backimg":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKVxJtrAaigyjmCUnJODKZSNuXW16Gs0wrkw&usqp=CAU"
+    },
+    {
+        "title":"The Sex Lives of College Girls",
+        "description":"Stars: Pauline Chalamet, Amrit Kaur, Reneé Rapp",
+        "backimg":"https://pbs.twimg.com/profile_images/1440716132046884867/pfBo6l0E_400x400.jpg"
+    },
+    {
+        "title":"Seinfeld",
+        "description":"Stars: Jerry Seinfeld, Julia Louis-Dreyfus, Michael Richards",
+        "backimg":"https://tv-fanatic-res.cloudinary.com/iu/s--R6MPQRNY--/c_scale,f_auto,h_1046,q_auto,w_696/v1371156329/seinfeld-poster"
+
+        }
+        ,
+        {
+        "title":"Ghostbusters",
+        "description":"Director: Ivan Reitman | Stars: Bill Murray, Dan Aykroyd, Sigourney Weaver",
+        "backimg":"https://cdn.shopify.com/s/files/1/0969/9128/products/Hollywood_Movie_Poster_-_Ghostbusters_2cd0ab5b-f726-4d1f-9e9f-2b1874677c82.jpg?v=1569192510"
+        }
+]
