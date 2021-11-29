@@ -8,6 +8,7 @@ import {
   ActivityIndicator,
 } from "react-native";
 import MovieSection from "../components/movieSection";
+import Comedy from "../components/Comedy";
 import { ScrollView } from "react-native-gesture-handler";
 import Romance from "../components/Romance";
 
@@ -66,6 +67,12 @@ function HomeScreen({ navigation }) {
         title="Romantic Movies">
         
         </Romance>
+        <Comedy
+        onPress={handlePress}
+        data={data}
+        title="Comedy Movies">
+
+        </Comedy>
       </ScrollView>
     </SafeAreaView>
   );
