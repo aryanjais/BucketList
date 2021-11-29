@@ -1,0 +1,64 @@
+[
+    {
+        "title":"Psycho",
+        "description":"Director: Alfred Hitchcock | Stars: Anthony Perkins, Janet Leigh",
+        "backimg":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbpaaXWUCJWKfrG7vGWZZlzOloeTiMM1nF32y1cF-O10SMsLB-N3dUn_3lZ1vIGQMu40o&usqp=CAU"
+
+    }
+    ,
+    {
+        "title":"Rosemary's Baby",
+        "description":"Director: Roman Polanski | Stars: Mia Farrow, John Cassavetes",
+        "backimg":"https://ih1.redbubble.net/image.716563488.5110/flat,750x1000,075,f.u3.jpg"
+
+    }
+    ,
+    {
+        "title":"The Texas Chain Saw Massacre",
+        "description":"Director: Tobe Hooper | Stars: Marilyn Burns, Edwin Neal",
+        "backimg":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7MvdjgbbEkYWJdbT6zSBWR0WhYYTDRygamD2_Ky7wmK97M89EjPrkV178dYRbasLYNls&usqp=CAU"
+
+    }
+    ,
+    {
+        "title":" The Shining",
+        "description":"Director: Stanley Kubrick | Stars: Jack Nicholson",
+        "backimg":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFgiPZ3Ns0hPanTjo0JvGt536YbfuZd4uAOv__r53DMBRVKNUgr4QLFjffeF7LTbIcaLA&usqp=CAU"
+
+    },{
+        "title":"The Exorcist",
+        "description":"Director: William Friedkin | Stars: Ellen Burstyn, Max von Sydow",
+        "backimg":"https://movieposters2.com/images/705381-b.jpg"
+
+    },
+    {
+        "title":"Jaws",
+        "description":"Director: Steven Spielberg | Stars: Roy Scheider, Robert Shaw",
+        "backimg":"https://i.ebayimg.com/images/g/p1cAAOSwPc1dvvqv/s-l300.jpg"
+
+    },
+    {
+        "title":"Halloween",
+        "description":"Director: John Carpenter | Stars: Donald Pleasence, Jamie Lee Curtis",
+        "backimg":"https://graphicriver.img.customer.envatousercontent.com/files/36802583/Halloween%20Preview.jpg?auto=compress%2Cformat&q=80&fit=crop&crop=top&max-h=8000&max-w=590&s=3785ff82dd5df5622004c18ffb9554dc"
+
+    },
+    {
+        "title":"Alien",
+        "description":"Director: Ridley Scott | Stars: Sigourney Weaver",
+        "backimg":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1O-SbvB2ZHCLLyAFojpOEpLYV283nKQYaYdqrOCqgEV9N1cKQ8h5VTeEoW4_oyTbcAY0&usqp=CAU"
+
+    },
+    {
+        "title":"Don't Look Now",
+        "description":"Director: Nicolas Roeg | Stars: Julie Christie, Donald Sutherland",
+        "backimg":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTJ_q2XvKFjingOcDV0VQUOIT-RACpUBL4lf4l8dODadT6bNaJoN-X9ji3EXjnM-TYUW4&usqp=CAU"
+
+    },
+    {
+        "title":"The Witch",
+        "description":"Director: Robert Eggers | Stars: Anya Taylor-Joy, Ralph Ineson",
+        "backimg":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkudFwhGKlLrukHxH63NM4zyAZHnztzrSHqO-ioPqjBfWGesAkCW48_18bet4DJn3rf9U&usqp=CAU"
+
+    }
+]
