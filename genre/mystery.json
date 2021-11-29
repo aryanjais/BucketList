@@ -1,40 +1,42 @@
-{ "title":"Gone Girl",
+[
+    { "title":"Gone Girl",
     "description":"Director: David Fincher | Stars: Ben Affleck, Rosamund Pike, Neil Patrick Harris, Tyler Perry",
     "backimg":"https://th.bing.com/th/id/R.15b1630b1ba1d9e072e2496a97d85b5d?rik=K79kvnqSVeMaCw&riu=http%3a%2f%2fwww.literarytraveler.com%2fwp-content%2fuploads%2f2015%2f01%2fGone-Girl1.jpg&ehk=19enK5K7Zy8YKYWWbwNkdXIYUTWj1JH2aRh%2f5hCiWBU%3d&risl=&pid=ImgRaw&r=0"
-}
+},
 { "title":"Wind River",
     "description":"Director: Taylor Sheridan | Stars: Elizabeth Olsen, Jeremy Renner, Graham Greene, Kelsey Asbille",
     "backimg":"https://th.bing.com/th/id/OIP.Uqspchhl0FvSJRcM_S5ehQHaKp?pid=ImgDet&rs=1"
-}
+},
 { "title":"Shutter Island",
     "description":"Director: Martin Scorsese | Stars: Leonardo DiCaprio, Emily Mortimer, Mark Ruffalo, Ben Kingsley",
     "backimg":"https://th.bing.com/th/id/R.2b2d477b220e31f81cc8e1edbd3319a4?rik=v%2b4q5aT7Fje%2bnQ&riu=http%3a%2f%2f2.bp.blogspot.com%2f-VS1lHFD_4SM%2fUoqN2SxZl3I%2fAAAAAAAAKCE%2fXzFR_kd1HDs%2fs1600%2fShutter%2bIsland.jpg&ehk=U8jAZyBoHrDEnm5FPB3Fer8vmZB55EWFeet9QklIIkU%3d&risl=&pid=ImgRaw&r=0"
-}
+},
 { "title":"Zodiac",
     "description":"Director: David Fincher | Stars: Jake Gyllenhaal, Robert Downey Jr., Mark Ruffalo, Anthony Edwards",
     "backimg":"https://th.bing.com/th/id/OIP.0Orm50abYiLxlU_fGhXhhAHaK-?pid=ImgDet&rs=1"
-}
+},
 { "title":"Memento",
     "description":"Director: Christopher Nolan | Stars: Guy Pearce, Carrie-Anne Moss, Joe Pantoliano, Mark Boone Junior",
     "backimg":"https://th.bing.com/th/id/R.caf4c9f6700ca58870b9b53030d58a25?rik=QU5uTOVITNjCug&riu=http%3a%2f%2f3.bp.blogspot.com%2f-93UJUsPMd-8%2fUCp19m_MA1I%2fAAAAAAAAACw%2fBdawTCjo5_8%2fs1600%2fmemento_xlg.jpeg&ehk=wMUow2i3c%2f5vQpIl0AmVHGb%2bVfRCmprDFU2u4yeapb8%3d&risl=&pid=ImgRaw&r=0"
-}
+},
 { "title":"Divergent",
     "description":"Director: Neil Burger | Stars: Shailene Woodley, Theo James, Kate Winslet, Jai Courtney",
     "backimg":"https://th.bing.com/th/id/OIP.EyZCj_tTLZIG7UlrQdCMQwHaLk?pid=ImgDet&rs=1"
-}
+},
 { "title":"Identity",
     "description":"Director: James Mangold | Stars: John Cusack, Ray Liotta, Amanda Peet, John Hawkes",
     "backimg":"https://th.bing.com/th/id/OIP.odq6Z0GeribRG7NId5Ax8QHaKj?pid=ImgDet&rs=1"
-}
+},
 { "title":"The Maze Runner",
     "description":"Director: Wes Ball | Stars: Dylan O'Brien, Kaya Scodelario, Will Poulter, Thomas Brodie-Sangste",
     "backimg":"https://th.bing.com/th/id/OIP.E_AvIWcQ6LrLXJfgBxoRHgHaLH?pid=ImgDet&rs=1"
-}
+},
 { "title":"Sherlock Holmes",
     "description":"Director: Guy Ritchie | Stars: Robert Downey Jr., Jude Law, Rachel McAdams, Mark Strong",
     "backimg":"https://th.bing.com/th/id/OIP.yWESBn8P7xlQZsg5afh8QAHaJ4?pid=ImgDet&rs=1"
-}
+},
 { "title":"Now You See Me",
     "description":"Director: Louis Leterrier | Stars: Jesse Eisenberg, Common, Mark Ruffalo, Woody Harrelson",
     "backimg":"https://is5-ssl.mzstatic.com/image/thumb/Video18/v4/74/33/ac/7433ace5-71f4-2163-1bdc-c047939edf3b/source/1200x630bb.jpg"
 }
+]
