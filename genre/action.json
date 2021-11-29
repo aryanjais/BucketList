@@ -1,0 +1,48 @@
+[
+    {
+        "title":"Vikings",
+        "description":"Director: Stella Meghie | Stars: Issa Rae, Chante Adams",
+        "backimg":" https://m.media-amazon.com/images/M/MV5BODk4ZjU0NDUtYjdlOS00OTljLTgwZTUtYjkyZjk1NzExZGIzXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_FMjpg_UX1000_.jpg"
+    },
+    {
+        "title":"Teen Wolf ",
+        "description":"Director: Stella Meghie | Stars: Bradley Cooper, Lady Gaga",
+        "backimg":" https://m.media-amazon.com/images/M/MV5BMThlNTk3YzMtOTZjMi00M2NiLTg1NTgtYThiYzE2MDFmMDUwXkEyXkFqcGdeQXVyNzA5NjUyNjM@._V1_.jpg"
+    },
+    {
+        "title":"House of the Dragon ",
+        "description":"Director: Chandra Wilson | Stars: Matt Smith, Justin Chambers",
+        "backimg":" https://images2.minutemediacdn.com/image/fetch/c_fill,g_auto,f_auto,h_2048,w_1796/https%3A%2F%2Fwinteriscoming.net%2Ffiles%2F2021%2F05%2FHouse-of-the-Dragon-poster.jpeg" 
+    },
+    {
+        "title":"Outer Banks ",
+        "description":"Director: Chandra Wilson | Stars: Nina Dobrev",
+        "backimg":"https://abcnews4.com/resources/media2/16x9/full/1015/center/80/31739bc0-7bdc-41bb-a9ca-f9eab51892de-large16x9_OuterBanksNetflix.jpg "
+
+    },
+    {
+        "title":"Lucifer ",
+        "description":"Director: Jeff| Stars: Tom Ellis, Luren German",
+        "backimg":"https://m.economictimes.com/thumb/msid-84753762,width-1200,height-900,resizemode-4,imgsize-736605/lucifer-revolves-around-lucifer-morningstar-played-by-tom-ellis-the-devil-who-abandons-hell-for-los-angeles-.jpg "
+
+
+    },
+    {
+        "title":"Whiplash ",
+        "description":"Director: Chandra Wilson | Stars: Ellen Pompeo, Justin Chambers",
+        "backimg":"https://d2e111jq13me73.cloudfront.net/sites/default/files/styles/product_image_aspect_switcher_170w/public/product-images/csm-movie/whiplash-poster.jpg?itok=Ik3xmD7f"
+
+    },
+    {
+        "title":"Mr. Robot ",
+        "description":"Director: Chandra Wilson | Stars: Ellen Pompeo, Justin Chambers",
+        "backimg":"https://flxt.tmsimg.com/assets/p11682476_n338740_cc_v9_ab.jpg "
+
+    },
+    {
+        "title":"Gladiator ",
+        "description":"Director: Chandra Wilson | Stars: Ellen Pompeo, Justin Chambers",
+        "backimg":"https://m.media-amazon.com/images/M/MV5BMDliMmNhNDEtODUyOS00MjNlLTgxODEtN2U3NzIxMGVkZTA1L2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_FMjpg_UX1000_.jpg "
+
+    }
+]
