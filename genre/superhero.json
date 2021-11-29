@@ -1,0 +1,62 @@
+[
+    {
+        
+        "title":"The Dark Knight",
+        "description":"Director: Christopher Nolan | Stars: Christian Bale, Heath Ledger",
+        "backimg":"https://m.media-amazon.com/images/M/MV5BMTk4ODQzNDY3Ml5BMl5BanBnXkFtZTcwODA0NTM4Nw@@._V1_FMjpg_UX1000_.jpg"
+
+    },
+    {
+        "title":"Logan",
+        "description":"Director: James Mangold | Stars: Hugh Jackman, Patrick Stewart",
+        "backimg":"https://i.ebayimg.com/images/g/~yQAAOSwfVtd18rI/s-l300.jpg"
+
+    },
+    {
+        "title":"Wonder Woman",
+        "description":"Director: Patty Jenkins | Stars: Gal Gadot, Chris Pine",
+        "backimg":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFhit-DvFCbuptQ9ykUGB5hPOs80CQ9g2MJgXBmqfILT_O6bNCGVDcHDGHHsCwmvpeetY&usqp=CAU"
+
+    },
+    {
+        "title":"Captain America: The Winter Soldier",
+        "description":"Directors: Anthony Russo, Joe Russo | Stars: Chris Evans",
+        "backimg":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTNeEJj6zBPP_neThXKXeZA0PaLGhoHDu1QDPnp2d25xORWVso7D_StnLpRutXgYmm1w4&usqp=CAU"
+
+    },
+    {
+        "title":"The Avengers",
+        "description":"Director: Joss Whedon | Stars: Robert Downey Jr., Chris Evans, Scarlett Johansson",
+        "backimg":"https://cdn.shopify.com/s/files/1/1002/7150/products/POS-500_2.jpg?v=1623644944"
+
+    },
+    {
+        "title":" Spider-Man 2",
+        "description":"Director: Sam Raimi | Stars: Tobey Maguire, Kirsten Dunst, Alfred Molina, James Franco",
+        "backimg":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUCdQAskbdvGbpw0HsU23JMKi-s17fBjY-jBep2uYrOhoO2ZfnVxWqKXJyEjKrAazGzWk&usqp=CAU"
+
+    },
+    {
+        "title":"Guardians of the Galaxy",
+        "description":"Director: James Gunn | Stars: Chris Pratt, Vin Diesel, Bradley Cooper",
+        "backimg":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9k7Vu9ibVYTzlquKkJDZUp1d8VYg6oL-OaKiq1mvZ3evIf0xS6XAnxgWxSsjXiaDSvJQ&usqp=CAU"
+
+    }
+    ,
+    {
+        "title":"Iron Man",
+        "description":"Director: Jon Favreau | Stars: Robert Downey Jr., Gwyneth Paltrow",
+        "backimg":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIJnCRaSC_Aqlmy0dwdbBCOahLlhn4psr4dcdGlzvjFARs7v_kPVpqeEqS60Rg4lAkoAw&usqp=CAU"
+    },
+    {
+        "title":" X-Men: Days of Future Past",
+        "description":"Director: Bryan Singer | Stars: Patrick Stewart, Ian McKellen, Hugh Jackman",
+        "backimg":"https://movieposters2.com/images/1158521-b.jpg"
+    },
+    {
+        "title":"Superman",
+        "description":"Director: Richard Donner | Stars: Christopher Reeve, Margot Kidde",
+        "backimg":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmOWIFxBKBfdWkxy1_01ps3g3CaciTE76OrD9uHxrO2IWuLuFDMPavLMcUcEp2S4-1ag4&usqp=CAU"
+
+    }
+]

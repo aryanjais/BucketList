@@ -1,0 +1,61 @@
+[
+    {
+        "title":"Rush Hour",
+        "description":"Director: Brett Ratner | Stars: Jackie Chan, Chris Tucker",
+        "backimg":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNlgZYgG3z_uuN6zYIl75x9p2nCNUUN5zuTAi_a-W8D3LYWuXdBnYFgAk4VoXfXUtOzmM&usqp=CAU"
+
+    },
+    {
+        "title":"Kick-Ass",
+        "description":"Director: Matthew Vaughn | Stars: Aaron Taylor-Johnson",
+        "backimg":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCKMK5ocj-IHQUDZqaQqTVZNMdZv_aTOsxYUhcMiyx9TD3w7LORgSJP38biuqZ_U4Pzdg&usqp=CAU"
+
+    },
+    {
+        "title":"Bad Boys",
+        "description":"Director: Michael Bay | Stars: Will Smith, Martin Lawrence",
+        "backimg":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUzYum7vt2wijMN_lPg4SGwLxo-JHYwHsFuSATWJidE-7BE2yOd42HfluwSI_EX3FbTII&usqp=CAU"
+
+    },
+    {
+        "title":"Rush Hour 2",
+        "description":"Director: Brett Ratner | Stars: Jackie Chan, Chris Tucker",
+        "backimg":"https://www.themoviedb.org/t/p/w500/aBQf2vMiCINeVC9v6BGVYKXurTh.jpg"
+
+    },
+    {
+        "title":" Bad Boys II",
+        "description":"Director: Michael Bay | Stars: Will Smith, Martin Lawrence",
+        "backimg":"https://i.pinimg.com/474x/10/5e/13/105e135050f175fba51363f658d3d4b1.jpg"
+
+    },
+    {
+        "title":"Rush Hour 3",
+        "description":"Director: Brett Ratner | Stars: Jackie Chan, Chris Tucker",
+        "backimg":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3bvueXrGZ6NABlt2Sun8Jyhu7ickW6mmS4EbcE65OygHR38AHA4L7yVaMEJhxFIuJc8c&usqp=CAU"
+
+    },
+    {
+        "title":"Beverly Hills Cop",
+        "description":"Director: Martin Brest | Stars: Eddie Murphy, Judge Reinhold",
+        "backimg":"https://d2e111jq13me73.cloudfront.net/sites/default/files/styles/product_image_aspect_switcher_170w/public/product-images/csm-movie/bhc.jpg?itok=FH3ejLzN"
+
+    }
+    ,
+    {
+        "title":" Shanghai Knights",
+        "description":"Director: David Dobkin | Stars: Jackie Chan, Owen Wilson",
+        "backimg":"https://lh3.googleusercontent.com/proxy/clR1AWa8vXQsRu6YIPU8nSo9BmNmPNt5IuMn93m6qbmF5v7MeToMvd5_LK8djHU_VtJ9bDUD9oVx6-rRvuIGEWttnN0FszcUpwaHUBQxW2wmXcmNLdsy"
+    },
+    {
+        "title":"Shanghai Noon",
+        "description":"Director: Tom Dey | Stars: Jackie Chan, Owen Wilson",
+        "backimg":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7BJMHN96VYoOc6wpxMi8R-aP4gEAsn7Av87onl03fLQJPnt_VQyysUkYIQhlsMlGzPvM&usqp=CAU"
+    },
+    {
+        "title":"Pineapple Express",
+        "description":"Director: David Gordon Green | Stars: Seth Rogen",
+        "backimg":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_RXe1I88icHfRt2ORANkOz52oiQo0uSGYuRWMErYD6P9PodfCW1sHPjHzBmNf_mT0hHA&usqp=CAU"
+
+    }
+]
