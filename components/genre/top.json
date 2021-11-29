@@ -1,0 +1,47 @@
+[
+    {
+        "title":"The Shawshank Redemption",
+        "description":"Director: Frank Darabont | Stars: Tim Robbins, Morgan Freeman",
+        "backimg":"https://m.media-amazon.com/images/I/611B9MhQKIL._AC_SL1500_.jpg"
+    },{
+        "title":"The Godfather",
+        "description":"Director: Francis Ford Coppola | Stars: Marlon Brando, Al Pacino, James Caan",
+        "backimg":"https://movieposters2.com/images/1597072-b.jpg"
+    },{
+        "title":"The Dark Knight",
+        "description":"Director: Christopher Nolan | Stars: Christian Bale, Heath Ledger",
+        "backimg":"https://m.media-amazon.com/images/M/MV5BMTk4ODQzNDY3Ml5BMl5BanBnXkFtZTcwODA0NTM4Nw@@._V1_FMjpg_UX1000_.jpg"
+    },{
+        "title":"The Godfather: Part II",
+        "description":"Director: Francis Ford Coppola | Stars: Al Pacino, Robert De Niro",
+        "backimg":"https://i.pinimg.com/originals/15/be/89/15be8983a78ef358730385dad243378d.jpg"
+    },{
+        "title":"12 Angry Men",
+        "description":"Director: Sidney Lumet | Stars: Henry Fonda, Lee J. Cobb",
+        "backimg":"https://preview.redd.it/pemewgjt2bf01.jpg?auto=webp&s=0c1c0a160a97e6801a05a3c320e0fe77c696f86e"
+    },{
+        "title":" The Lord of the Rings: The Return of the King",
+        "description":"Director: Peter Jackson | Stars: Elijah Wood, Viggo Mortensen",
+        "backimg":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEEuPD7NBSJ0cKYO48Mf9Sku5TTfQ--SRn2Q&usqp=CAU"
+    },{
+        "title":"Pulp Fiction",
+        "description":"Director: Quentin Tarantino | Stars: John Travolta, Uma Thurman",
+        "backimg":"https://globestudiogallery.com/wp-content/uploads/2021/06/pulp-fiction-scaled.jpg"
+    },{
+        "title":"Schindler's List",
+        "description":"Director: Steven Spielberg | Stars: Liam Neeson, Ralph Fiennes",
+        "backimg":"https://product-image.juniqe-production.juniqe.com/media/catalog/product/seo-cache/x800/44/38/44-38-101P/Schindler-s-List-Calm-The-Ham-Poster.jpg"
+    },{
+        "title":"Inception",
+        "description":"Director: Christopher Nolan | Stars: Leonardo DiCaprio",
+        "backimg":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_7aLot1yePYCgGeJlCZWxD2A_36KFu7W7TA&usqp=CAU"
+    },{
+        "title":"Fight Club",
+        "description":"Director: David Fincher | Stars: Brad Pitt, Edward Norton",
+        "backimg":"https://m.media-amazon.com/images/I/71o1aRN1FJL._SY550_.jpg"
+    },{
+        "title":"The Lord of the Rings: The Fellowship of the Ring",
+        "description":"Director: Peter Jackson | Stars: Elijah Wood, Ian McKellen",
+        "backimg":"https://movieposters2.com/images/1741590-b.jpg"
+    }
+]
