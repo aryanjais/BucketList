@@ -1,0 +1,46 @@
+[
+    {
+        "title":"Malignant",
+        "description":"Director: Stella Meghie | Stars: Issa Rae, Chante Adams",
+        "backimg":" https://m.media-amazon.com/images/M/MV5BYTc0NWIwOTYtNzEwYi00YmUyLTlmYWYtYjJiZjRjN2RjMjAxXkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_.jpg"
+    },
+    {
+        "title":"A Quiet Place ",
+        "description":"Director: Stella Meghie | Stars: Bradley Cooper, Lady Gaga",
+        "backimg":" https://akm-img-a-in.tosshub.com/indiatoday/images/story/202110/ZHe69QYuRTb5RAaj4Zv42C.jpg?8kvuTeGcUpq6Xslz.XKeSst3PjH0dv7g"
+    },
+    {
+        "title":"Into the Dark ",
+        "description":"Director: Chandra Wilson | Stars: Matt Smith, Justin Chambers",
+        "backimg":"https://m.media-amazon.com/images/M/MV5BMzI0NjkyYTQtY2Y3ZS00MDMzLTk0ODAtMzk0NTA2MGNlYTNiXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_.jpg "
+
+    },
+    {
+        "title":"Parasite ",
+        "description":"Director: Chandra Wilson | Stars: Nina Dobrev",
+        "backimg":"https://m.media-amazon.com/images/M/MV5BYWZjMjk3ZTItODQ2ZC00NTY5LWE0ZDYtZTI3MjcwN2Q5NTVkXkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_.jpg "
+
+    },
+    {
+        "title":"Prisoners ",
+        "description":"Director: Jeff| Stars: Tom Ellis, Luren German",
+        "backimg":" https://m.media-amazon.com/images/M/MV5BMTg0NTIzMjQ1NV5BMl5BanBnXkFtZTcwNDc3MzM5OQ@@._V1_.jpg"
+
+    },
+    {
+        "title":"Zodiac ",
+        "description":"Director: Chandra Wilson | Stars: Ellen Pompeo, Justin Chambers",
+        "backimg":"https://m.media-amazon.com/images/I/51J8YOLxCRL._SY445_.jpg "
+    },
+    {
+        "title":"Shutter Island ",
+        "description":"Director: Chandra Wilson | Stars: Ellen Pompeo, Justin Chambers",
+        "backimg":" https://m.media-amazon.com/images/M/MV5BYzhiNDkyNzktNTZmYS00ZTBkLTk2MDAtM2U0YjU1MzgxZjgzXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg"
+
+    },
+    {
+        "title":"Sherlock ",
+        "description":"Director: Chandra Wilson | Stars: Ellen Pompeo, Justin Chambers",
+        "backimg":"https://m.media-amazon.com/images/M/MV5BMWY3NTljMjEtYzRiMi00NWM2LTkzNjItZTVmZjE0MTdjMjJhL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyNTQ4NTc5OTU@._V1_FMjpg_UX1000_.jpg "
+    }
+]
