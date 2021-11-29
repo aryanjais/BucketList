@@ -1,0 +1,52 @@
+[
+    {
+        "title":"The Lord of The Rings",
+        "description":"Director: Peter Jackson | Stars: Elijah Wood, Ian McKellen, Orlando Bloom, Sean Bean",
+        "backimg":"https://xl.movieposterdb.com/15_11/2001/120737/xl_120737_c0f4471a.jpg"
+    },
+    {
+        "title":"Harry Potter and The Sorcerer's Stone",
+        "description":"Director: Chris Columbus | Stars: Daniel Radcliffe, Rupert Grint, Richard Harris, Maggie Smith",
+        "backimg":"https://posters.movieposterdb.com/13_02/2001/241527/s_241527_da927a3d.jpg"
+    },
+    {
+        "title":"Pan's Labyrinth",
+        "description":"Director: Guillermo del Toro | Stars: Ivana Baquero, Ariadna Gil, Sergi López, Maribel Verdú",
+        "backimg":"https://posters.movieposterdb.com/08_03/2006/457430/s_457430_25fc0ba0.jpg"
+    },
+    {
+        "title":"The Spiderwick Chronicles",
+        "description":"Director: Mark Waters | Stars: Freddie Highmore, Sarah Bolger, David Strathairn, Mary-Louise Parker",
+        "backimg":"https://posters.movieposterdb.com/08_03/2008/416236/s_416236_62f3d546.jpg"
+    },
+    {
+        "title":"A Series of Unfortunate Events",
+        "description":"Director: Brad Silberling | Stars: Jim Carrey, Jude Law, Meryl Streep, Liam Aiken",
+        "backimg":"https://posters.movieposterdb.com/11_07/2004/339291/s_339291_fd4e5b93.jpg"
+    },
+    {
+        "title":"Charlie and the Chocolate Factory",
+        "description":"Director: Tim Burton | Stars: Johnny Depp, Freddie Highmore, David Kelly, Helena Bonham Carter",
+        "backimg":"https://posters.movieposterdb.com/09_04/2005/367594/s_367594_98e2e3ae.jpg"
+    },
+    {
+        "title":"The Chronicles of Narnia",
+        "description":"Director: Andrew Adamson | Stars: Tilda Swinton, Georgie Henley, William Moseley, Skandar Keynes",
+        "backimg":"https://posters.movieposterdb.com/05_11/2005/0363771/s_69423_0363771_4c3f4823.jpg"
+    },
+    {
+        "title":" The Golden Compass",
+        "description":"Director: Chris Weitz | Stars: Nicole Kidman, Daniel Craig, Dakota Blue Richards, Ben Walker",
+        "backimg":"https://posters.movieposterdb.com/07_12/2007/385752/s_385752_53208494.jpg"
+    },
+    {
+        "title":"Stardust",
+        "description":"Director: Matthew Vaughn | Stars: Charlie Cox, Claire Danes, Sienna Miller, Ian McKellen",
+        "backimg":"https://posters.movieposterdb.com/07_10/2007/486655/s_486655_8f4242f5.jpg"
+    },
+    {
+        "title":"Coraline",
+        "description":"Director: Henry Selick | Stars: Dakota Fanning, Teri Hatcher, John Hodgman, Jennifer Saunders",
+        "backimg":"https://posters.movieposterdb.com/09_05/2009/327597/s_327597_71453a9f.jpg"
+    }
+]
