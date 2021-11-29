@@ -1,0 +1,18 @@
+[
+    {
+        "title":"Titanic",
+        "description":"THIS IS A ROMANTIC MOVIE",
+        "backimg":"https://faithmag.com/sites/default/files/styles/article_full/public/2021-08/titanic.jpg?h=5cc6d756&itok=qujOhbLw"
+    },
+    {
+        "title":"The Shawshank Redemption",
+        "description":"",
+        "backimg":"https://m.media-amazon.com/images/I/611B9MhQKIL._AC_SL1500_.jpg"
+        
+    },
+    {
+        "title":"Pulp Fiction",
+        "description":"",
+        "backimg":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRofv_w7w0Qow5pyotO9vGmm1I0SlaQezDIsg&usqp=CAU"
+    }
+]

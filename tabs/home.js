@@ -9,34 +9,35 @@ import {
 } from "react-native";
 import MovieSection from "../components/movieSection";
 import { ScrollView } from "react-native-gesture-handler";
-
+import axios from 'axios';
+import data from '../movies.json'
 function HomeScreen({ navigation }) {
   const [loading, setLoading] = React.useState(false);
   const [error, setError] = React.useState(null);
-  const [data, setData] = React.useState([]);
+  // const [data, setData] = React.useState([]);
 
-  const handlePress = ({ title, id }) => {};
+  const handlePress = ({ title, id }) => { };
 
-  useEffect(() => {
-    setLoading(true);
-    fetch(`${API_BASE_URL}/movies?p=1&l=6`)
-      .then((response) => response.json())
-      .then((data = []) => {
-        if (!data.length) {
-          setError("No movies available");
-          return setLoading(false);
-        }
+  // var axios = require("axios").default;
+  // useEffect(() => {
 
-        setLoading(false);
-        setData(data);
 
-        if (error) setError(null);
-      })
-      .catch((e) => {
-        setLoading(false);
-        setError("Fetching movies failed");
-      });
-  }, []);
+  //   setLoading(true);
+  //   fetch(`${API_BASE_URL}`)
+  //     .then((response) => response.json())
+  //     .then(dat => {
+  //       // console.log(dat);
+  //       setLoading(false);
+  //       setData(dat);
+
+  //       if (error) setError(null);
+  //     })
+  //     .catch((e) => {
+  //       console.log(e);
+  //       setLoading(false);
+  //       setError("Fetching movies failed");
+  //     });
+  // }, []);
 
   if (loading)
     return (
@@ -47,7 +48,7 @@ function HomeScreen({ navigation }) {
   if (error) return <Text>ERROR: {error}</Text>;
 
   return (
-    
+
     <SafeAreaView>
       <ScrollView>
         <MovieSection

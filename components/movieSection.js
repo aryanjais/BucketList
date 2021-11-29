@@ -19,12 +19,12 @@ function MovieSection({ title, data, onPress }) {
       <Image
         style={styles.cardImage}
         source={{
-          uri: item.poster,
+          uri: item.backimg,
         }}
       />
       <View style={styles.cardInnerContainer}>
         <Text style={styles.cardTitle}>{item.title}</Text>
-        <Text style={styles.cardDescription}>{item.plot}</Text>
+        <Text style={styles.cardDescription}>{item.description}</Text>
       </View>
     </TouchableOpacity>
   );
@@ -54,7 +54,6 @@ const styles = StyleSheet.create({
     padding: 10,
   },
   title: {
-    fontFamily: "AppleSDGothicNeo-SemiBold",
     fontSize: 24,
     fontWeight: "bold",
     marginBottom: 10,
@@ -71,7 +70,6 @@ const styles = StyleSheet.create({
     padding: 10,
   },
   cardTitle: {
-    fontFamily: "AppleSDGothicNeo-SemiBold",
     fontSize: 18,
     color: "white",
   },

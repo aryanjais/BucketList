@@ -4,13 +4,28 @@ import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import HomeTab from "./tabs/home";
 import SearchTab from "./tabs/search";
 import { Ionicons } from "@expo/vector-icons";
-import {StyleSheet,ImageBackground} from "react-native";
-
+import { StyleSheet } from "react-native";
+import StartingScreen from "./screens/StartingScreen";
+import firebase from 'firebase/compat/app';
 const Tab = createBottomTabNavigator();
+const firebaseConfig = {
+  apiKey: "AIzaSyA9wwkP_B0SWUkq9DhIZHnjgSeW_k_d84o",
+  authDomain: "movie-9f52f.firebaseapp.com",
+  projectId: "movie-9f52f",
+  storageBucket: "movie-9f52f.appspot.com",
+  messagingSenderId: "902837622462",
+  appId: "1:902837622462:web:7eff711497368f6587f0ef",
+  measurementId: "G-KJSYLV3PE6"
+};
+
+// Initialize Firebase
+firebase.initializeApp(firebaseConfig);
+
 
 export default function App() {
+  // Import the functions you need from the SDKs you need
+
   return (
-    <ImageBackground source={require('./assets/oo.jpg')} resizeMode="cover" style={styles.image}>
       <NavigationContainer>
         <Tab.Navigator
           screenOptions={({ route }) => ({
@@ -36,7 +51,6 @@ export default function App() {
           <Tab.Screen name="Search" component={SearchTab} />
         </Tab.Navigator>
       </NavigationContainer>
-    </ImageBackground>
   );
 }
 
