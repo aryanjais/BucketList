@@ -8,6 +8,7 @@ import {
   ActivityIndicator,
 } from "react-native";
 import MovieSection from "../components/movieSection";
+import Romance from "../components/Romance";
 import { ScrollView } from "react-native-gesture-handler";
 import axios from 'axios';
 import data from '../movies.json'
@@ -61,6 +62,12 @@ function HomeScreen({ navigation }) {
           data={data}
           title="Top rated movies"
         ></MovieSection>
+        <Romance onPress={handlePress}
+          data={data}
+          title="Romantic Movies">
+
+        </Romance>
+
       </ScrollView>
     </SafeAreaView>
   );

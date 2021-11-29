@@ -9,6 +9,7 @@ import {
 } from "react-native";
 import MovieSection from "../components/movieSection";
 import { ScrollView } from "react-native-gesture-handler";
+import Romance from "../components/Romance";
 
 function HomeScreen({ navigation }) {
   const [loading, setLoading] = React.useState(false);
@@ -59,6 +60,12 @@ function HomeScreen({ navigation }) {
           data={data}
           title="Top rated movies"
         ></MovieSection>
+
+        <Romance onPress={handlePress}
+        data={data}
+        title="Romantic Movies">
+        
+        </Romance>
       </ScrollView>
     </SafeAreaView>
   );
