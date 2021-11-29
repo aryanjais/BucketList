@@ -1,0 +1,62 @@
+  [
+    {
+        "title":"Arcane",
+        "description":"Stars: Kevin Alejandro, Jason Spisak, Hailee Steinfeld",
+        "backimg":"https://static1.colliderimages.com/wordpress/wp-content/uploads/2021/09/EN-US_ARCANE_Character_Jinx_Vertical_4x5_RGB.jpg?q=50&fit=crop&w=1080&dpr=1.5"
+
+    },
+    {
+        "title":"Hawkeye",
+        "description":"Stars: Jeremy Renner, Hailee Steinfeld, Florence Pugh",
+        "backimg":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvy_8sQF6ktL9dWxA1btohaX7WsmmsMEzf_SaTJSI60jdYVjzTaq5YcMj04qay24fQSyc&usqp=CAU"
+
+    },
+    {
+        "title":"Cowboy Bebop",
+        "description":"Stars: John Cho, Mustafa Shakir, Daniella Pineda",
+        "backimg":"https://m.media-amazon.com/images/I/71mSnI+PNRL._AC_SL1500_.jpg"
+
+    },
+    {
+        "title":"Ghostbusters: Afterlife",
+        "description":"Director: Jason Reitman | Stars: Carrie Coon, Paul Rudd",
+        "backimg":"https://film-authority.com/wp-content/uploads/2021/11/ghostbustersafterbanner.jpg"
+
+    },
+    {
+        "title":"Spider-Man: No Way Home",
+        "description":"Director: Jon Watts | Stars: Zendaya, Benedict Cumberbatch",
+        "backimg":"https://cdn.vox-cdn.com/thumbor/Gkb_h-BabvSVEcU4kb_kd81cbWM=/0x0:600x750/1200x800/filters:focal(167x218:263x314)/cdn.vox-cdn.com/uploads/chorus_image/image/70145003/unnamed__1_.0.jpeg"
+
+    },
+    {
+        "title":"Dune",
+        "description":"Director: Denis Villeneuve | Stars: Timothée Chalamet",
+        "backimg":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQylY_ojuqpwWLcFLuQkRXl6aIh9F1UJCxAxr-kJA5pVVMB3hc5WR95AbGCAHpVt1Ny1ho&usqp=CAU"
+
+    },
+    {
+        "title":"Shang-Chi and the Legend of the Ten Rings",
+        "description":"Director: Destin Daniel Cretton | Stars: Simu Liu, Awkwafina",
+        "backimg":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQm_jWlebIwdeCwC5dzoOPxzRkJwSVghitxxt2fN-Rnc5ltz_lSetX0RRx-T1x1f2JjQsM&usqp=CAU"
+
+    },
+    {
+        "title":"Eternals",
+        "description":"Director: Chloé Zhao | Stars: Gemma Chan, Richard Madden",
+        "backimg":"https://lh3.googleusercontent.com/proxy/Y4Z9hy_tN5uLnhS264iFaMadzcY5ZH7ZV0jsDXqKh8wvFu9tisXzLwLVRAiPR-Y25otuPjop1AWgsPkwpok8mTxrOgmnKPHuvdA-rxJ3T8Y"
+
+    },
+    {
+        "title":"Venom: Let There Be Carnage",
+        "description":"Director: Andy Serkis | Stars: Tom Hardy, Woody Harrelson",
+        "backimg":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBvMqFG0CGijvvUjE9eUL8WCuvLeVcnJIQJ9w5vQNi44z1TloPEMZbFgSo0lDq42ABVf8&usqp=CAU"
+
+    },
+    {
+        "title":"Resident Evil: Welcome to Raccoon City",
+        "description":"Director: Johannes Roberts | Stars: Kaya Scodelario, Robbie Amell",
+        "backimg":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIXQBtvpdFg4m26ZP-XGT4jjqXC3yuORH2fF-F3d3-nsrNT_jl5hFbqdeHQygyOP9JXIs&usqp=CAU"
+
+    }
+]
