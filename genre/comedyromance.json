@@ -1,0 +1,52 @@
+[
+    {
+        "title":"Knocked Up",
+        "description":"Director: Judd Apatow | Stars: Seth Rogen, Katherine Heigl",
+        "backimg":"https://www.iceposter.com/thumbs/MOV_9e986a36_b.jpg"
+    },
+    {
+        "title":"She's the Man",
+        "description":"Director: Andy Fickman | Stars: Amanda Bynes, Laura Ramsey",
+        "backimg":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyr3vKoV3FtkfUXRoUTuIlhBpA7uoJbp_2llnvWk8GyHv-xo41LlMba5OWft3oPAbM0iY&usqp=CAU"
+    },
+    {
+        "title":"Love Actually",
+        "description":"Director: Richard Curtis | Stars: Hugh Grant, Martine McCutcheon",
+        "backimg":"https://d2e111jq13me73.cloudfront.net/sites/default/files/styles/product_image_aspect_switcher_170w/public/product-images/csm-movie/love-actually-poster.jpg?itok=fiLjdedU"
+    },
+    {
+        "title":"50 First Dates",
+        "description":"Director: Peter Segal | Stars: Adam Sandler, Drew Barrymore",
+        "backimg":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_jpNIkrEIIEwaNm2O4U9IyP6YGSTmG-0EOdXfwCBbU0UHdCMHhJEYHwwi19fErWNnqHg&usqp=CAU"
+    },
+    {
+        "title":"The Proposal",
+        "description":"Director: Anne Fletcher | Stars: Sandra Bullock, Ryan Reynolds",
+        "backimg":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNRaXbpmT9xt1WVOFQl4d6vCO7fcyw0YaIWqWpfPOd1Vi3vfoqqoF7XZfsKdc8KdEUbhY&usqp=CAU"
+    },
+    {
+        "title":"You've Got Mail",
+        "description":"Director: Nora Ephron | Stars: Tom Hanks, Meg Ryan, Greg Kinnear",
+        "backimg":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4HUqLm2kUIgLV6rWqw_2UHsEzjdHGcYNUqli1mKPeBCcgQrR2PQIviqCUOofkAD_EziU&usqp=CAU"
+    },
+    {
+        "title":"How to Lose a Guy in 10 Days",
+        "description":"Director: Donald Petrie | Stars: Kate Hudson, Matthew McConaughey",
+        "backimg":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWtZm-vch77NVQIOR0Lkpp-Uf-IB0Bn832_LOqx80k8jtmXYd-xPs2CTlo2_c9pomdHrw&usqp=CAU"
+    },
+    {
+        "title":"The Ugly Truth",
+        "description":"Director: Robert Luketic | Stars: Katherine Heigl, Gerard Butler",
+        "backimg":"https://d2e111jq13me73.cloudfront.net/sites/default/files/styles/product_image_aspect_switcher_170w/public/product-images/csm-movie/uglytruth.jpg?itok=FQQRw25H"
+    },
+    {
+        "title":"Sleepless in Seattle",
+        "description":"Director: Nora Ephron | Stars: Tom Hanks, Meg Ryan, Ross Malinger",
+        "backimg":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaqEko1xbnknoyYBGLBVoyg7LLxanqm1QlR82kCLDBPTJdmK3d31L7_HH9Jhomc-sLS00&usqp=CAU"
+    },
+    {
+        "title":"Notting Hill",
+        "description":"Director: Roger Michell | Stars: Hugh Grant, Julia Roberts, Richard McCabe",
+        "backimg":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1t1gzwIE8evk4mqtnqRFny1MZCt4kvGnx6TJEyzfGwdST8YmFS19zOzpq90Xa6sqsHYg&usqp=CAU"
+    }
+]
