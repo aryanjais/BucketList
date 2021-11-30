@@ -1,6 +1,8 @@
 import * as React from "react";
 import { NavigationContainer } from "@react-navigation/native";
+import { createNativeStackNavigator } from '@react-navigation/native-stack'
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
+import { createS } from "@react-navigation/native"
 import HomeTab from "./tabs/home";
 import SearchTab from "./tabs/search";
 import ListTab from "./tabs/List";
@@ -9,6 +11,8 @@ import { Fontisto } from '@expo/vector-icons';
 import { StyleSheet } from "react-native";
 import StartingScreen from "./screens/StartingScreen";
 import firebase from 'firebase/compat/app';
+const Stack = createNativeStackNavigator();
+
 const Tab = createBottomTabNavigator();
 const firebaseConfig = {
   apiKey: "AIzaSyA9wwkP_B0SWUkq9DhIZHnjgSeW_k_d84o",
@@ -28,7 +32,11 @@ export default function App() {
   // Import the functions you need from the SDKs you need
 
   return (
+    // <StartingScreen>
     <NavigationContainer>
+      <Stack.Navigator>
+        {/* <Stack.Screen name="Home" component={HomeScreen} /> */}
+      </Stack.Navigator>
       <Tab.Navigator
         screenOptions={({ route }) => ({
           tabBarIcon: ({ focused, color, size }) => {
@@ -54,9 +62,10 @@ export default function App() {
       >
         <Tab.Screen name="Home" component={HomeTab} />
         <Tab.Screen name="Search" component={SearchTab} />
-        <Tab.Screen name="BucketList" component={ListTab}/>
+        <Tab.Screen name="BucketList" component={ListTab} />
       </Tab.Navigator>
     </NavigationContainer>
+    // </StartingScreen>
   );
 }
 
