@@ -11,13 +11,13 @@
     },
     {
         "title":" Guardians of the Galaxy",
-        "description":"https://posters.movieposterdb.com/14_07/2014/2015381/s_2015381_2a13ec7d.jpg",
-        "backimg":"Director: James Gunn | Stars: Chris Pratt, Vin Diesel, Bradley Cooper, Zoe Saldana"
+        "description":"Director: James Gunn | Stars: Chris Pratt, Vin Diesel, Bradley Cooper, Zoe Saldana",
+        "backimg":"https://posters.movieposterdb.com/14_07/2014/2015381/s_2015381_2a13ec7d.jpg"
     },
     {
         "title":" Guardians of the Galaxy 2",
-        "description":"https://posters.movieposterdb.com/20_08/2017/3896198/s_3896198_b002fe3d.jpg",
-        "backimg":""
+        "description":"adventurous",
+        "backimg":"https://posters.movieposterdb.com/20_08/2017/3896198/s_3896198_b002fe3d.jpg"
     },
     {
         "title":"The Avengers",
@@ -26,8 +26,8 @@
     },
     {
         "title":"The Dark Knight Rises",
-        "description":"https://posters.movieposterdb.com/21_06/2012/1345836/s_1345836_429edb63.jpg",
-        "backimg":"Director: Christopher Nolan | Stars: Christian Bale, Tom Hardy, Anne Hathaway, Gary Oldman"
+        "description":"Director: Christopher Nolan | Stars: Christian Bale, Tom Hardy, Anne Hathaway, Gary Oldman" ,
+        "backimg":"https://posters.movieposterdb.com/21_06/2012/1345836/s_1345836_429edb63.jpg"
     },
     {
         "title":"DeadPool",

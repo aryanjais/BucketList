@@ -11,6 +11,8 @@ import { Fontisto } from '@expo/vector-icons';
 import { StyleSheet } from "react-native";
 import StartingScreen from "./screens/StartingScreen";
 import firebase from 'firebase/compat/app';
+import LoginScreen from "./screens/LoginScreen";
+import HomeScreen from "./tabs/home";
 const Stack = createNativeStackNavigator();
 
 const Tab = createBottomTabNavigator();
@@ -32,40 +34,41 @@ export default function App() {
   // Import the functions you need from the SDKs you need
 
   return (
-    // <StartingScreen>
-    <NavigationContainer>
-      <Stack.Navigator>
-        {/* <Stack.Screen name="Home" component={HomeScreen} /> */}
-      </Stack.Navigator>
-      <Tab.Navigator
-        screenOptions={({ route }) => ({
-          tabBarIcon: ({ focused, color, size }) => {
-            let iconName;
+    <LoginScreen>
+      <NavigationContainer>
+        {/* <Stack.Navigator>
+        <Stack.Screen options={{headerShown: false}} name="Login" component={LoginScreen} />
+        <Stack.Screen name="Home" component={HomeScreen} />
+      </Stack.Navigator> */}
+        <Tab.Navigator
+          screenOptions={({ route }) => ({
+            tabBarIcon: ({ focused, color, size }) => {
+              let iconName;
 
-            if (route.name === "Home") {
-              iconName = focused ? "ios-home" : "ios-home-outline";
-            } else if (route.name === "Search") {
-              iconName = focused ? "ios-search" : "ios-search-outline";
-            } else if (route.name === "BucketList") {
-              iconName = focused ? "list" : "ios-list-outline";
-            }
+              if (route.name === "Home") {
+                iconName = focused ? "ios-home" : "ios-home-outline";
+              } else if (route.name === "Search") {
+                iconName = focused ? "ios-search" : "ios-search-outline";
+              } else if (route.name === "BucketList") {
+                iconName = focused ? "list" : "ios-list-outline";
+              }
 
-            return <Ionicons name={iconName} size={size} color={color} />;
-          },
+              return <Ionicons name={iconName} size={size} color={color} />;
+            },
 
-        })}
-        tabBarOptions={{
-          activeTintColor: "tomato",
-          inactiveTintColor: "black",
-          labelPosition: "below-icon",
-        }}
-      >
-        <Tab.Screen name="Home" component={HomeTab} />
-        <Tab.Screen name="Search" component={SearchTab} />
-        <Tab.Screen name="BucketList" component={ListTab} />
-      </Tab.Navigator>
-    </NavigationContainer>
-    // </StartingScreen>
+          })}
+          tabBarOptions={{
+            activeTintColor: "tomato",
+            inactiveTintColor: "black",
+            labelPosition: "below-icon",
+          }}
+        >
+          <Tab.Screen name="Home" component={HomeTab} />
+          <Tab.Screen name="Search" component={SearchTab} />
+          <Tab.Screen name="BucketList" component={ListTab} />
+        </Tab.Navigator>
+      </NavigationContainer>
+    </LoginScreen>
   );
 }
 

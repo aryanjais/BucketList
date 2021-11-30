@@ -49,7 +49,7 @@ function HomeScreen({ navigation }) {
 
   return (
     <SafeAreaView>
-      <ScrollView>
+      <ScrollView style={styles.container}>
         <MovieSection
           onPress={handlePress}
           data={data}
@@ -162,6 +162,7 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: "center",
     alignItems: "center",
+    backgroundColor:"#f0f"
   },
   text: {
     fontSize: 24,

@@ -58,6 +58,7 @@ const styles = StyleSheet.create({
     fontSize: 24,
     fontWeight: "bold",
     marginBottom: 10,
+    padding:10
   },
   cardOuterContainer: {
     position: "relative",
@@ -73,8 +74,13 @@ const styles = StyleSheet.create({
   cardTitle: {
     fontSize: 18,
     color: "white",
+    fontWeight:"200",
+    padding:5
   },
   cardDescription: {
     color: "white",
+    padding:5,
+    fontWeight:"300"
+
   },
 });

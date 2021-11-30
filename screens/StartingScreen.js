@@ -94,6 +94,7 @@ const styles = StyleSheet.create({
         flex: 1,
         justifyContent: "center",
         tintColor: "black",
+        opacity:0.8
     },
     imagecontainer: {
         flex: 1,
@@ -130,7 +131,8 @@ const styles = StyleSheet.create({
         alignItems: 'center',
         justifyContent: 'space-around',
         marginLeft: 50,
-        padding: 10
+        padding: 10,
+        opacity:1
 
 
     },
@@ -141,10 +143,12 @@ const styles = StyleSheet.create({
         borderColor: 'black',
         overflow: 'hidden',
         height: 100,
+        opacity:1
     },
     imagecard: {
         flex: 1,
-        justifyContent: "center"
+        justifyContent: "center",
+        opacity:1
     },
 });
 
