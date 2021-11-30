@@ -34,7 +34,7 @@ export default function App() {
   // Import the functions you need from the SDKs you need
 
   return (
-    <LoginScreen>
+    // <LoginScreen>
       <NavigationContainer>
         {/* <Stack.Navigator>
         <Stack.Screen options={{headerShown: false}} name="Login" component={LoginScreen} />
@@ -68,7 +68,6 @@ export default function App() {
           <Tab.Screen name="BucketList" component={ListTab} />
         </Tab.Navigator>
       </NavigationContainer>
-    </LoginScreen>
   );
 }
 
