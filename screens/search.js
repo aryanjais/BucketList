@@ -26,7 +26,7 @@ export default function SearchScreen(){
   const search = () => {
     axios(apiurl + "&s=" + state.s).then(({data})=>{
       let results = data.Search;
-
+      
       setState(prevState => {
         return { ...prevState,results:results}
       })
@@ -35,6 +35,7 @@ export default function SearchScreen(){
   const openPopup = id => {
     axios(apiurl +"&i="+id).then(({data})=>{
       let result =data;
+
       // console.log(result);
       setState(prevState => {
         return{ ...prevState,selected:result}
