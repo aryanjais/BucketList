@@ -1,6 +1,6 @@
 import axios from "axios";
 import React,{useState} from "react";
-import { StyleSheet, Text, View,TextInput, ScrollView,Image,TouchableHighlight } from "react-native";
+import { StyleSheet, Text, View,TextInput, ScrollView,Image,TouchableHighlight,Modal } from "react-native";
 // import {createAppContainer} from 'react-navigation'
 // import {createStackNavigator} from 'react-navigation-stack'
 
@@ -26,6 +26,7 @@ export default function SearchScreen(){
   const search = () => {
     axios(apiurl + "&s=" + state.s).then(({data})=>{
       let results = data.Search;
+
       setState(prevState => {
         return { ...prevState,results:results}
       })
@@ -34,8 +35,7 @@ export default function SearchScreen(){
   const openPopup = id => {
     axios(apiurl +"&i="+id).then(({data})=>{
       let result =data;
-
-      console.log(result);
+      // console.log(result);
       setState(prevState => {
         return{ ...prevState,selected:result}
       })
@@ -66,6 +66,27 @@ export default function SearchScreen(){
 
           ))}
         </ScrollView>
+        <Modal
+        animationType='fade'
+        transparent={false}
+        visible={(typeof state.selected.Title != "undefined")}
+        >
+          <View style={styles.popup}>
+            <Text style={styles.poptitle}>{state.selected.Title}</Text>
+            <Text style={styles.poprating}>Rating - {state.selected.imdbRating}</Text>
+            <Text style={styles.popplot}>Plot -{state.selected.Plot}</Text>
+            <Text style={styles.popplot}>Release Date - {state.selected.Released}</Text>
+            <Text style={styles.popplot}>Runtime - {state.selected.Runtime}</Text>
+
+
+            <TouchableHighlight
+            onPress={()=>setState(prevState => {
+              return{ ...prevState,selected:{}}
+            })}>
+              <Text style={styles.colseBtn}>Close</Text>
+            </TouchableHighlight>
+          </View>
+        </Modal>
     </View>
   );
 }
