@@ -151,7 +151,7 @@ const styles = StyleSheet.create({
 
   },
   popposter:{
-    height:400,
+    height:500,
     resizeMode:'contain'
 
   },
@@ -167,6 +167,9 @@ const styles = StyleSheet.create({
     margin:10,
     fontSize:16,
 
+  },
+  poptitle:{
+    fontSize:20
   },
   closeBtn:{
     backgroundColor:'skyblue',
