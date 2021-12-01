@@ -74,13 +74,25 @@ export default function SearchScreen(){
         transparent={false}
         visible={(typeof state.selected.Title != "undefined")}
         >
-          <View style={styles.popup}>
+          <ScrollView style={styles.popup}>
             <Image style={styles.popposter} source={{uri:state.selected.Poster}}></Image>
+            
             <Text style={[styles.poptitle,styles.pop]}>{state.selected.Title}</Text>
-            <Text style={[styles.poprating,styles.pop]}>Rating - {state.selected.imdbRating}</Text>
-            <Text style={[styles.popplot,styles.pop]}>Plot -{state.selected.Plot}</Text>
-            <Text style={[styles.popplot,styles.pop]}>Release Date - {state.selected.Released}</Text>
-            <Text style={[styles.popplot,styles.pop]}>Runtime - {state.selected.Runtime}</Text>
+
+            <Text style={[styles.poprating,styles.pop]}>Rating</Text>
+            <Text style={[styles.poptitle1,styles.pop1]}>{state.selected.imdbRating}</Text>
+
+            <Text style={[styles.popplot,styles.pop]}>Plot</Text>
+            <Text style={[styles.popplot1,styles.pop1]}>{state.selected.Plot}</Text>
+
+            <Text style={[styles.poprelease,styles.pop]}>Release Date</Text>
+            <Text style={[styles.poprelease1,styles.pop1]}>{state.selected.Released}</Text>
+
+            <Text style={[styles.popruntime,styles.pop]}>Runtime</Text>
+            <Text style={[styles.popruntime1,styles.pop1]}>{state.selected.Runtime}</Text>
+
+            <Text style={[styles.popcast,styles.pop]}>Cast</Text>
+            <Text style={[styles.popcast1,styles.pop1]}>{state.selected.Actors}</Text>
 
 
             <TouchableHighlight
@@ -89,7 +101,7 @@ export default function SearchScreen(){
             })}>
               <Text style={[styles.closeBtn,styles.pop]}>Close</Text>
             </TouchableHighlight>
-          </View>
+          </ScrollView>
         </Modal>
     </View>
   );
@@ -146,6 +158,14 @@ const styles = StyleSheet.create({
   pop:{
     margin:10,
     fontSize:18,
+    fontWeight:'700',
+    // borderBottomWidth:1,
+    borderColor:'black',
+    
+  },
+  pop1:{
+    margin:10,
+    fontSize:16,
 
   },
   closeBtn:{
