@@ -15,10 +15,11 @@ import { StyleSheet, Text, View,TextInput, ScrollView,Image,TouchableHighlight,M
 
 import { SearchBar } from 'react-native-elements';
 
+
 export default function SearchScreen(){
   const apiurl="http://www.omdbapi.com/?apikey=c4d79353"
   const [state,setState] = useState({
-    s:"Enter a Movie...",
+    s:"",
     results:[],
     selected:{}
   });
@@ -46,6 +47,7 @@ export default function SearchScreen(){
   return(
     <View style={styles.container}>
         <TextInput
+        placeholder="Search movie..."
         style={styles.searchbox}
         onChangeText={text => setState(prevState =>
           {
@@ -73,18 +75,19 @@ export default function SearchScreen(){
         visible={(typeof state.selected.Title != "undefined")}
         >
           <View style={styles.popup}>
-            <Text style={styles.poptitle}>{state.selected.Title}</Text>
-            <Text style={styles.poprating}>Rating - {state.selected.imdbRating}</Text>
-            <Text style={styles.popplot}>Plot -{state.selected.Plot}</Text>
-            <Text style={styles.popplot}>Release Date - {state.selected.Released}</Text>
-            <Text style={styles.popplot}>Runtime - {state.selected.Runtime}</Text>
+            <Image style={styles.popposter} source={{uri:state.selected.Poster}}></Image>
+            <Text style={[styles.poptitle,styles.pop]}>{state.selected.Title}</Text>
+            <Text style={[styles.poprating,styles.pop]}>Rating - {state.selected.imdbRating}</Text>
+            <Text style={[styles.popplot,styles.pop]}>Plot -{state.selected.Plot}</Text>
+            <Text style={[styles.popplot,styles.pop]}>Release Date - {state.selected.Released}</Text>
+            <Text style={[styles.popplot,styles.pop]}>Runtime - {state.selected.Runtime}</Text>
 
 
             <TouchableHighlight
             onPress={()=>setState(prevState => {
               return{ ...prevState,selected:{}}
             })}>
-              <Text style={styles.colseBtn}>Close</Text>
+              <Text style={[styles.closeBtn,styles.pop]}>Close</Text>
             </TouchableHighlight>
           </View>
         </Modal>
@@ -102,8 +105,10 @@ const styles = StyleSheet.create({
   searchbox:{
     fontSize:20,
     fontWeight:'300',
-    backgroundColor:'black',
-    color:'white',
+    // backgroundColor:'black',
+    // color:'white',
+    borderColor:'black',
+    borderWidth:2,
     borderRadius:5,
     width:'95%',
     height:50,
@@ -132,6 +137,23 @@ const styles = StyleSheet.create({
     height:300,
     resizeMode:'contain'
 
+  },
+  popposter:{
+    height:400,
+    resizeMode:'contain'
+
+  },
+  pop:{
+    margin:10,
+    fontSize:18,
+
+  },
+  closeBtn:{
+    backgroundColor:'skyblue',
+    width:'auto',
+    padding:10,
+    borderRadius:8,
+  
   }
 });
 
